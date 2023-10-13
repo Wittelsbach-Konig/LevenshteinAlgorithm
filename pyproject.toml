@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "levenshteinalgorithm"
+version = "0.1.0"
+description = ""
+authors = ["Кирюшин Виталий <kiryuschin.vitalij@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.10"
+python-levenshtein = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
